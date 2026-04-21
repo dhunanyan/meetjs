@@ -1,0 +1,58 @@
+{
+  "name": "meetjs-msw-next-demo",
+  "version": "1.0.0",
+  "description": "MSW Beyond Tests demo: Next.js App Router project with runtime switching between MSW intercept and real API paths.",
+  "license": "MIT",
+  "author": "dhunanyan",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "msw",
+    "mock-service-worker",
+    "app-router",
+    "frontend",
+    "api-mocking",
+    "developer-experience",
+    "demo",
+    "meetjs"
+  ],
+  "homepage": "https://dhunanyan.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhunanyan/meetjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhunanyan/meetjs/issues"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c cyan,magenta \"yarn dev:server\" \"yarn dev:client\"",
+    "dev:client": "next dev",
+    "dev:client:no-mock": "NEXT_PUBLIC_API_MOCKING=disabled next dev",
+    "dev:server": "tsx server/index.ts",
+    "dev:server:watch": "tsx watch server/index.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "msw init public --save"
+  },
+  "dependencies": {
+    "msw": "^2.11.2",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.2"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "summary": {
+    "total": 55,
+    "open": 37,
+    "blocked": 9,
+    "doneToday": 8,
+    "affectedUsers": 50359
+  },
+  "issues": [
+    {
+      "id": "INC-5300",
+      "title": "Checkout submit disabled after 2FA modal close",
+      "service": "web-checkout",
+      "owner": "Anya S.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-20T10:20:00.000Z",
+      "usersImpacted": 2400
+    },
+    {
+      "id": "INC-5299",
+      "title": "Product gallery jitter on Safari 17 scroll",
+      "service": "web-catalog",
+      "owner": "Marta D.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T09:44:00.000Z",
+      "usersImpacted": 2351
+    },
+    {
+      "id": "INC-5298",
+      "title": "Session refresh loop on /account/orders",
+      "service": "web-profile",
+      "owner": "Oleg R.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-20T09:08:00.000Z",
+      "usersImpacted": 2302
+    },
+    {
+      "id": "INC-5297",
+      "title": "Home banner CTR event missing variant id",
+      "service": "web-growth",
+      "owner": "Nina P.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-20T08:32:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5296",
+      "title": "Slow first paint for feed in low-end Android",
+      "service": "web-feed",
+      "owner": "Anton B.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T07:56:00.000Z",
+      "usersImpacted": 2204
+    },
+    {
+      "id": "INC-5295",
+      "title": "Currency symbol mismatch for PLN in basket",
+      "service": "web-payments",
+      "owner": "Pavel N.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-20T07:20:00.000Z",
+      "usersImpacted": 2155
+    },
+    {
+      "id": "INC-5294",
+      "title": "Push notification CTA overlaps nav on iOS",
+      "service": "web-notify",
+      "owner": "Sofia K.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-20T06:44:00.000Z",
+      "usersImpacted": 2106
+    },
+    {
+      "id": "INC-5293",
+      "title": "Invoice PDF download stalls after auth refresh",
+      "service": "web-docs",
+      "owner": "Micha V.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T06:08:00.000Z",
+      "usersImpacted": 2057
+    },
+    {
+      "id": "INC-5292",
+      "title": "Wishlist sync race when switching account",
+      "service": "web-wishlist",
+      "owner": "Anya S.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-20T05:32:00.000Z",
+      "usersImpacted": 2008
+    },
+    {
+      "id": "INC-5291",
+      "title": "Empty state animation blocks pointer events",
+      "service": "web-ui-core",
+      "owner": "Marta D.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-20T04:56:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5290",
+      "title": "Search autocomplete loses focus on debounce",
+      "service": "web-search",
+      "owner": "Oleg R.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T04:20:00.000Z",
+      "usersImpacted": 1910
+    },
+    {
+      "id": "INC-5289",
+      "title": "Profile settings patch request sends stale payload",
+      "service": "web-account",
+      "owner": "Nina P.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-20T03:44:00.000Z",
+      "usersImpacted": 1861
+    },
+    {
+      "id": "INC-5288",
+      "title": "Checkout submit disabled after 2FA modal close",
+      "service": "web-checkout",
+      "owner": "Anton B.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-20T03:08:00.000Z",
+      "usersImpacted": 1812
+    },
+    {
+      "id": "INC-5287",
+      "title": "Product gallery jitter on Safari 17 scroll",
+      "service": "web-catalog",
+      "owner": "Pavel N.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T02:32:00.000Z",
+      "usersImpacted": 1763
+    },
+    {
+      "id": "INC-5286",
+      "title": "Session refresh loop on /account/orders",
+      "service": "web-profile",
+      "owner": "Sofia K.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-20T01:56:00.000Z",
+      "usersImpacted": 1714
+    },
+    {
+      "id": "INC-5285",
+      "title": "Home banner CTR event missing variant id",
+      "service": "web-growth",
+      "owner": "Micha V.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-20T01:20:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5284",
+      "title": "Slow first paint for feed in low-end Android",
+      "service": "web-feed",
+      "owner": "Anya S.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-20T00:44:00.000Z",
+      "usersImpacted": 1616
+    },
+    {
+      "id": "INC-5283",
+      "title": "Currency symbol mismatch for PLN in basket",
+      "service": "web-payments",
+      "owner": "Marta D.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-20T00:08:00.000Z",
+      "usersImpacted": 1567
+    },
+    {
+      "id": "INC-5282",
+      "title": "Push notification CTA overlaps nav on iOS",
+      "service": "web-notify",
+      "owner": "Oleg R.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T23:32:00.000Z",
+      "usersImpacted": 1518
+    },
+    {
+      "id": "INC-5281",
+      "title": "Invoice PDF download stalls after auth refresh",
+      "service": "web-docs",
+      "owner": "Nina P.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T22:56:00.000Z",
+      "usersImpacted": 1469
+    },
+    {
+      "id": "INC-5280",
+      "title": "Wishlist sync race when switching account",
+      "service": "web-wishlist",
+      "owner": "Anton B.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T22:20:00.000Z",
+      "usersImpacted": 1420
+    },
+    {
+      "id": "INC-5279",
+      "title": "Empty state animation blocks pointer events",
+      "service": "web-ui-core",
+      "owner": "Pavel N.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T21:44:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5278",
+      "title": "Search autocomplete loses focus on debounce",
+      "service": "web-search",
+      "owner": "Sofia K.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T21:08:00.000Z",
+      "usersImpacted": 1322
+    },
+    {
+      "id": "INC-5277",
+      "title": "Profile settings patch request sends stale payload",
+      "service": "web-account",
+      "owner": "Micha V.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T20:32:00.000Z",
+      "usersImpacted": 1273
+    },
+    {
+      "id": "INC-5276",
+      "title": "Checkout submit disabled after 2FA modal close",
+      "service": "web-checkout",
+      "owner": "Anya S.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T19:56:00.000Z",
+      "usersImpacted": 1224
+    },
+    {
+      "id": "INC-5275",
+      "title": "Product gallery jitter on Safari 17 scroll",
+      "service": "web-catalog",
+      "owner": "Marta D.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T19:20:00.000Z",
+      "usersImpacted": 1175
+    },
+    {
+      "id": "INC-5274",
+      "title": "Session refresh loop on /account/orders",
+      "service": "web-profile",
+      "owner": "Oleg R.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T18:44:00.000Z",
+      "usersImpacted": 1126
+    },
+    {
+      "id": "INC-5273",
+      "title": "Home banner CTR event missing variant id",
+      "service": "web-growth",
+      "owner": "Nina P.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T18:08:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5272",
+      "title": "Slow first paint for feed in low-end Android",
+      "service": "web-feed",
+      "owner": "Anton B.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T17:32:00.000Z",
+      "usersImpacted": 1028
+    },
+    {
+      "id": "INC-5271",
+      "title": "Currency symbol mismatch for PLN in basket",
+      "service": "web-payments",
+      "owner": "Pavel N.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T16:56:00.000Z",
+      "usersImpacted": 979
+    },
+    {
+      "id": "INC-5270",
+      "title": "Push notification CTA overlaps nav on iOS",
+      "service": "web-notify",
+      "owner": "Sofia K.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T16:20:00.000Z",
+      "usersImpacted": 930
+    },
+    {
+      "id": "INC-5269",
+      "title": "Invoice PDF download stalls after auth refresh",
+      "service": "web-docs",
+      "owner": "Micha V.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T15:44:00.000Z",
+      "usersImpacted": 881
+    },
+    {
+      "id": "INC-5268",
+      "title": "Wishlist sync race when switching account",
+      "service": "web-wishlist",
+      "owner": "Anya S.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T15:08:00.000Z",
+      "usersImpacted": 832
+    },
+    {
+      "id": "INC-5267",
+      "title": "Empty state animation blocks pointer events",
+      "service": "web-ui-core",
+      "owner": "Marta D.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T14:32:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5266",
+      "title": "Search autocomplete loses focus on debounce",
+      "service": "web-search",
+      "owner": "Oleg R.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T13:56:00.000Z",
+      "usersImpacted": 734
+    },
+    {
+      "id": "INC-5265",
+      "title": "Profile settings patch request sends stale payload",
+      "service": "web-account",
+      "owner": "Nina P.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T13:20:00.000Z",
+      "usersImpacted": 685
+    },
+    {
+      "id": "INC-5264",
+      "title": "Checkout submit disabled after 2FA modal close",
+      "service": "web-checkout",
+      "owner": "Anton B.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T12:44:00.000Z",
+      "usersImpacted": 636
+    },
+    {
+      "id": "INC-5263",
+      "title": "Product gallery jitter on Safari 17 scroll",
+      "service": "web-catalog",
+      "owner": "Pavel N.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T12:08:00.000Z",
+      "usersImpacted": 587
+    },
+    {
+      "id": "INC-5262",
+      "title": "Session refresh loop on /account/orders",
+      "service": "web-profile",
+      "owner": "Sofia K.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T11:32:00.000Z",
+      "usersImpacted": 538
+    },
+    {
+      "id": "INC-5261",
+      "title": "Home banner CTR event missing variant id",
+      "service": "web-growth",
+      "owner": "Micha V.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T10:56:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5260",
+      "title": "Slow first paint for feed in low-end Android",
+      "service": "web-feed",
+      "owner": "Anya S.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T10:20:00.000Z",
+      "usersImpacted": 440
+    },
+    {
+      "id": "INC-5259",
+      "title": "Currency symbol mismatch for PLN in basket",
+      "service": "web-payments",
+      "owner": "Marta D.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T09:44:00.000Z",
+      "usersImpacted": 391
+    },
+    {
+      "id": "INC-5258",
+      "title": "Push notification CTA overlaps nav on iOS",
+      "service": "web-notify",
+      "owner": "Oleg R.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T09:08:00.000Z",
+      "usersImpacted": 342
+    },
+    {
+      "id": "INC-5257",
+      "title": "Invoice PDF download stalls after auth refresh",
+      "service": "web-docs",
+      "owner": "Nina P.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T08:32:00.000Z",
+      "usersImpacted": 293
+    },
+    {
+      "id": "INC-5256",
+      "title": "Wishlist sync race when switching account",
+      "service": "web-wishlist",
+      "owner": "Anton B.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T07:56:00.000Z",
+      "usersImpacted": 244
+    },
+    {
+      "id": "INC-5255",
+      "title": "Empty state animation blocks pointer events",
+      "service": "web-ui-core",
+      "owner": "Pavel N.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T07:20:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5254",
+      "title": "Search autocomplete loses focus on debounce",
+      "service": "web-search",
+      "owner": "Sofia K.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T06:44:00.000Z",
+      "usersImpacted": 146
+    },
+    {
+      "id": "INC-5253",
+      "title": "Profile settings patch request sends stale payload",
+      "service": "web-account",
+      "owner": "Micha V.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T06:08:00.000Z",
+      "usersImpacted": 97
+    },
+    {
+      "id": "INC-5252",
+      "title": "Checkout submit disabled after 2FA modal close",
+      "service": "web-checkout",
+      "owner": "Anya S.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T05:32:00.000Z",
+      "usersImpacted": 48
+    },
+    {
+      "id": "INC-5251",
+      "title": "Product gallery jitter on Safari 17 scroll",
+      "service": "web-catalog",
+      "owner": "Marta D.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T04:56:00.000Z",
+      "usersImpacted": 35
+    },
+    {
+      "id": "INC-5250",
+      "title": "Session refresh loop on /account/orders",
+      "service": "web-profile",
+      "owner": "Oleg R.",
+      "priority": "high",
+      "status": "blocked",
+      "createdAt": "2026-02-19T04:20:00.000Z",
+      "usersImpacted": 35
+    },
+    {
+      "id": "INC-5249",
+      "title": "Home banner CTR event missing variant id",
+      "service": "web-growth",
+      "owner": "Nina P.",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-02-19T03:44:00.000Z",
+      "usersImpacted": 0
+    },
+    {
+      "id": "INC-5248",
+      "title": "Slow first paint for feed in low-end Android",
+      "service": "web-feed",
+      "owner": "Anton B.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-02-19T03:08:00.000Z",
+      "usersImpacted": 35
+    },
+    {
+      "id": "INC-5247",
+      "title": "Currency symbol mismatch for PLN in basket",
+      "service": "web-payments",
+      "owner": "Pavel N.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-02-19T02:32:00.000Z",
+      "usersImpacted": 35
+    },
+    {
+      "id": "INC-5246",
+      "title": "Push notification CTA overlaps nav on iOS",
+      "service": "web-notify",
+      "owner": "Sofia K.",
+      "priority": "critical",
+      "status": "open",
+      "createdAt": "2026-02-19T01:56:00.000Z",
+      "usersImpacted": 35
+    }
+  ],
+  "releases": [
+    {
+      "id": "REL-1202",
+      "branch": "release/web-2.22.0",
+      "commit": "81cf302",
+      "deployedAt": "2026-02-20T09:50:00Z",
+      "author": "Elena M.",
+      "result": "warning"
+    },
+    {
+      "id": "REL-1201",
+      "branch": "fix/cdn-avif-fallback",
+      "commit": "18ef0d2",
+      "deployedAt": "2026-02-20T07:40:00Z",
+      "author": "Pavel N.",
+      "result": "success"
+    },
+    {
+      "id": "REL-1200",
+      "branch": "chore/auth-cookie-hardening",
+      "commit": "6b20a9a",
+      "deployedAt": "2026-02-19T16:11:00Z",
+      "author": "Sofia K.",
+      "result": "success"
+    },
+    {
+      "id": "REL-1199",
+      "branch": "fix/checkout-promo-race",
+      "commit": "bb91331",
+      "deployedAt": "2026-02-19T13:40:00Z",
+      "author": "Nina P.",
+      "result": "warning"
+    },
+    {
+      "id": "REL-1198",
+      "branch": "release/web-2.21.3",
+      "commit": "7f31b7e",
+      "deployedAt": "2026-02-19T09:14:00Z",
+      "author": "Elena M.",
+      "result": "success"
+    },
+    {
+      "id": "REL-1197",
+      "branch": "hotfix/session-refresh-loop",
+      "commit": "1c95fe2",
+      "deployedAt": "2026-02-18T22:28:00Z",
+      "author": "Pavel N.",
+      "result": "failed"
+    }
+  ],
+  "health": [
+    {
+      "name": "Error rate",
+      "value": "2.1%",
+      "trend": "up"
+    },
+    {
+      "name": "P95 API latency",
+      "value": "436ms",
+      "trend": "up"
+    },
+    {
+      "name": "Web Vitals LCP",
+      "value": "2.4s",
+      "trend": "flat"
+    },
+    {
+      "name": "Checkout conversion",
+      "value": "2.8%",
+      "trend": "down"
+    }
+  ]
+}

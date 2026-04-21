@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{TPL_PAGE_TITLE}}</title>
+    <link rel="icon" type="image/x-icon" href="{{TPL_FAVICON_URL}}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{TPL_FAVICON_URL}}" />
+    <link rel="apple-touch-icon" href="{{TPL_FAVICON_URL}}" />
+    {{TPL_STYLE_CONTENT}}
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <div class="topline">
+          <div>
+            <h1>{{TPL_HEADER_TITLE}}</h1>
+            <p class="muted">{{TPL_HEADER_SUBTITLE}}</p>
+          </div>
+          <span class="badge">{{TPL_BADGE}}</span>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="topline">
+          <strong>{{TPL_SPEC_LABEL}}</strong>
+          <a href="{{TPL_SPEC_HREF}}" target="_blank">{{TPL_SPEC_TEXT}}</a>
+        </div>
+      </section>
+      <section class="grid">{{TPL_ENDPOINTS}}</section>
+    </main>
+    {{TPL_SCRIPT_CONTENT}}
+  </body>
+</html>
